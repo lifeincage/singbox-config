@@ -20,7 +20,7 @@
             {
                 "tag": "proxy_dns",
                 "address": "https://1.1.1.1/dns-query",
-                "detour": "AUTO"
+                "detour": "Proxy"
             },
             {
                 "tag": "local_dns",
