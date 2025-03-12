@@ -150,7 +150,7 @@
             }
         ],
         "auto_detect_interface": true,
-        "final": "Metaverse",
+        "final": "Proxy",
         "rule_set": [
             {
                 "tag": "geoip-cn",
