@@ -150,7 +150,7 @@
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-                "download_detour": "AUTO"
+                "download_detour": "direct"
             },
             {
                 "tag": "geosite-geolocation-!cn",
