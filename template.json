@@ -127,13 +127,6 @@
                 "outbound": "Proxy"
             },
             {
-                "rule_set": [
-                    "geoip-apple",
-                    "geosite-apple"
-                ],
-                "outbound": "Apple"
-            },
-            {
                 "rule_set": "geosite-geolocation-!cn",
                 "outbound": "Global"
             },
@@ -157,20 +150,6 @@
                 "type": "remote",
                 "format": "binary",
                 "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-                "download_detour": "AUTO"
-            },
-            {
-                "tag": "geoip-apple",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geoip/apple.srs",
-                "download_detour": "direct"
-            },
-            {
-                "tag": "geosite-apple",
-                "type": "remote",
-                "format": "binary",
-                "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/apple.srs",
                 "download_detour": "AUTO"
             },
             {
